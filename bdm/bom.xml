@@ -10,18 +10,7 @@
                 <field type="STRING" length="255" name="country" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
-            <queries>
-                <query name="query" content="SELECT a &#10;FROM Address a &#10;WHERE a.address = :address&#10;AND a.address2 = :address2&#10;AND a.postalCode = :postalCode&#10;AND a.city = :city&#10;AND a.country = :country&#10;ORDER BY a.persistenceId ASC" returnType="com.company.model.Address">
-                    <description>dbdbd</description>
-                    <queryParameters>
-                        <queryParameter name="address" className="java.lang.String"/>
-                        <queryParameter name="address2" className="java.lang.String"/>
-                        <queryParameter name="postalCode" className="java.lang.String"/>
-                        <queryParameter name="city" className="java.lang.String"/>
-                        <queryParameter name="country" className="java.lang.String"/>
-                    </queryParameters>
-                </query>
-            </queries>
+            <queries/>
             <indexes/>
         </businessObject>
         <businessObject qualifiedName="com.company.model.Customer">
