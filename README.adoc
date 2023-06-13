@@ -1,0 +1,282 @@
+= Demo - document generation
+Generated with Bonita
+v1.0.0-SNAPSHOT, {docdate}
+:toc: left
+:toc-title: Table of contents
+:toclevels: 2
+:bonita-version: 7.15
+:imagesdir: ./documentation/images
+:icons: font
+:sectnums: numbered
+:sectanchors:
+:hardbreaks:
+:experimental:
+
+[abstract]
+--
+use of office templating and PDF connector
+--
+
+== Business Data Model
+
+////
+Install graphviz to benefit of plantuml diagram generation.
+Visit https://graphviz.org/download/ for more information.
+////
+
+=== Package com.company.model
+
+==== Address
+
+_No description available_
+
+===== icon:list[] Attributes
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name                                   |Type  |Description
+|[[Address.persistenceId]]persistenceId*|Long  |           
+|[[Address.address]]address*            |String|           
+|[[Address.address2]]address2           |String|           
+|[[Address.postalCode]]postalCode*      |String|           
+|[[Address.city]]city*                  |String|           
+|[[Address.country]]country*            |String|           
+|===
+
+==== Customer
+
+_No description available_
+
+===== icon:list[] Attributes
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name                                       |Type             |Description
+|[[Customer.persistenceId]]persistenceId*   |Long             |           
+|[[Customer.name]]name                      |String           |           
+|[[Customer.firstName]]firstName            |String           |           
+|[[Customer.lastName]]lastName              |String           |           
+|[[Customer.id]]id                          |String           |           
+|[[Customer.licence]]licence                |String           |           
+|[[Customer.email]]email                    |String           |           
+|[[Customer.phone]]phone                    |String           |           
+|[[Customer.dob]]dob                        |LocalDate        |           
+|[[Customer.gender]]gender                  |String           |           
+|[[Customer.paymentMethod]]paymentMethod    |String           |           
+|[[Customer.paymentsolvency]]paymentsolvency|String           |           
+|[[Customer.insurance]]insurance            |String           |           
+|[[Customer.status]]status                  |String           |           
+|[[Customer.caseId]]caseId                  |Long             |           
+|[[Customer.userId]]userId                  |Long             |           
+|[[Customer.globalStatus]]globalStatus      |String           |           
+|[[Customer.digisignStatus]]digisignStatus  |String           |           
+|[[Customer.address]]&#x25c6; address       |<<Address>>      |           
+|[[Customer.vehicles]]&#x25c6; vehicles     |List<<<Vehicle>>>|           
+|===
+
+===== icon:link[] Unique constraints
+
+====== uniqueConstraint [<<Customer.name,name>>]
+
+_No description available_
+
+===== icon:search[] Queries
+
+====== query
+
+Return type: _Customer_
+_No description available_
+
+====== countForQuery
+
+Return type: _Customer_
+_No description available_
+
+====== previousCustomers
+
+Return type: _List<Customer>_
+_No description available_
+
+.Query parameters
+[caption=,grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name         |Type|Description
+|persistenceId|Long|           
+|startIndex   |int |           
+|maxResults   |int |           
+|===
+
+====== registredCustomers
+
+Return type: _List<Customer>_
+_No description available_
+
+.Query parameters
+[caption=,grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name      |Type|Description
+|startIndex|int |           
+|maxResults|int |           
+|===
+
+==== Vehicle
+
+_No description available_
+
+===== icon:list[] Attributes
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name                                   |Type     |Description
+|[[Vehicle.persistenceId]]persistenceId*|Long     |           
+|[[Vehicle.vin]]vin                     |String   |           
+|[[Vehicle.licencePlate]]licencePlate   |String   |           
+|[[Vehicle.brand]]brand                 |String   |           
+|[[Vehicle.model]]model                 |String   |           
+|[[Vehicle.type]]type                   |String   |           
+|[[Vehicle.color]]color                 |String   |           
+|[[Vehicle.deliveryDate]]deliveryDate   |LocalDate|           
+|[[Vehicle.inFleetDate]]inFleetDate     |LocalDate|           
+|[[Vehicle.outFleetDate]]outFleetDate   |LocalDate|           
+|===
+
+===== icon:link[] Unique constraints
+
+====== uniqueConstraint [<<Vehicle.vin,vin>>]
+
+_No description available_
+
+== Processes
+
+=== image:icons/Pool.png[title="Process"] [[_030e29d4-7649-3210-b625-7f4d7670f898]]GenerateContract (1.0)
+
+_No description available_
+
+image::processes/GenerateContract-1.0.png[]
+
+==== icon:users[] Actors
+
+[grid=cols,options="header",cols="1,3a",stripes=even,frame=topbot]
+|===
+|Name                                                                                       |Description
+|[[_d0ff2e7f-6baf-316d-876a-992d1d21e29e]]Actor1 icon:play-circle[title="Process initiator"]|           
+|===
+
+==== icon:file[] Documents
+
+[grid=cols,options="header",cols="1,3a",stripes=even,frame=topbot]
+|===
+|Name                                                |Description
+|[[_c2f44636-47c4-3930-9b9e-1980d4c6b309]]template   |           
+|[[_463ec23d-37ec-3ee8-98e6-23b397f178e2]]contract   |           
+|[[_e3096ece-5732-31b3-9272-5b117eb6630e]]contractPdf|           
+|===
+
+==== [[_04a9a432-de64-37d8-a237-fe3134629a84]]image:icons/StartEvent.png[title="StartEvent"] Start4
+
+_No description available_
+
+===== icon:arrow-right[] Outgoing transition(s)
+
+*To <<_ba687c3e-da06-3341-8220-1940a6953b1b,create customer>>*
+
+==== [[_ba687c3e-da06-3341-8220-1940a6953b1b]]image:icons/ServiceTask.png[title="ServiceTask"] create customer
+
+_No description available_
+
+*Previous flow element(s)*: <<_04a9a432-de64-37d8-a237-fe3134629a84,Start4>>
+
+===== icon:arrow-right[] Outgoing transition(s)
+
+*To <<_3501f24d-17fa-3e1f-8476-8a7aa4ec818d,create word document>>*
+
+==== [[_3501f24d-17fa-3e1f-8476-8a7aa4ec818d]]image:icons/ServiceTask.png[title="ServiceTask"] create word document
+
+_No description available_
+
+*Previous flow element(s)*: <<_ba687c3e-da06-3341-8220-1940a6953b1b,create customer>>
+
+===== icon:plug[] Connectors in
+
+*Insert data in a .docx/.odt template: prepareContract*
+
+===== icon:arrow-right[] Outgoing transition(s)
+
+*To <<_b6b89264-6233-34a6-9c22-9c2b3e7fe00f,create PDF document>>*
+
+==== [[_b6b89264-6233-34a6-9c22-9c2b3e7fe00f]]image:icons/ServiceTask.png[title="ServiceTask"] create PDF document
+
+_No description available_
+
+*Previous flow element(s)*: <<_3501f24d-17fa-3e1f-8476-8a7aa4ec818d,create word document>>
+
+===== icon:plug[] Connectors in
+
+*Generate pdf from an office document: preparePDF*
+
+===== icon:arrow-right[] Outgoing transition(s)
+
+*To <<_8c460091-98f4-36d2-9004-bd7c75340cfa,End5>>*
+
+==== [[_8c460091-98f4-36d2-9004-bd7c75340cfa]]image:icons/EndEvent.png[title="EndEvent"] End5
+
+_No description available_
+
+*Previous flow element(s)*: <<_b6b89264-6233-34a6-9c22-9c2b3e7fe00f,create PDF document>>
+
+== Process diagrams
+
+=== GenerateContract (1.0)
+
+_No description available_
+
+image::diagrams/GenerateContract-1.0.png[]
+
+== Organization
+
+=== Groups
+
+////
+Install graphviz to benefit of plantuml diagram generation.
+Visit https://graphviz.org/download/ for more information.
+////
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Path                     |Display name          |Description                                                                         
+|/acme                    |Acme                  |This group represents the acme department of the ACME organization                  
+|/acme/hr                 |Human Resources       |This group represents the human resources department of the ACME organization       
+|/acme/finance            |Finance               |This group represents the finance department of the ACME organization               
+|/acme/it                 |Infrastructure        |This group represents the infrastructure department of the ACME organization        
+|/acme/marketing          |Marketing             |This group represents the marketing department of the ACME organization             
+|/acme/production         |Production            |This group represents the production department of the ACME organization            
+|/acme/production/rd      |Research & Development|This group represents the research & development department of the ACME organization
+|/acme/production/services|Services              |This group represents the services department of the ACME organization              
+|/acme/sales              |Sales                 |This group represents the sales department of the ACME organization                 
+|/acme/sales/europe       |Europe                |This group represents the europe department of the ACME organization                
+|/acme/sales/asia         |Asia                  |This group represents the asia department of the ACME organization                  
+|/acme/sales/latin_america|Latin America         |This group represents the latin america department of the ACME organization         
+|/acme/sales/north_america|North America         |This group represents the north america department of the ACME organization         
+|===
+
+=== Roles
+
+[grid=cols,options="header",cols="1,1e,3a",stripes=even,frame=topbot]
+|===
+|Name  |Display name|Description
+|member|Member      |           
+|===
+
+=== Profiles
+
+[grid=cols,options="header",cols="1e,3a",stripes=even,frame=topbot]
+|===
+|Name                                                    |Description                                                          
+|[[_1300bb05-3afe-3c2d-af8b-543b4fb16c32]]User           |The user can view and perform tasks and can start a new case of a
+                                                          process.    
+|[[_080d4ce6-9f34-37f2-a270-2edb021a60ec]]Administrator  |The administrator can install a process, manage the organization, and
+                                                          handle some errors (for example, by replaying a task).
+|[[_ec4b68ef-adbc-302e-8811-94d9a8fc9032]]Process manager|The Process manager can supervise designated processes, and manage
+                                                          cases and tasks of those processes.   
+|===
+
