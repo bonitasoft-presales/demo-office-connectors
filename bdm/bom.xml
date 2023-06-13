@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.3">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Address">
+            <fields>
+                <field type="STRING" length="50" name="address" nullable="false" collection="false"/>
+                <field type="STRING" length="50" name="address2" nullable="true" collection="false"/>
+                <field type="STRING" length="10" name="postalCode" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="city" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="country" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries>
+                <query name="query" content="SELECT a &#10;FROM Address a &#10;WHERE a.address = :address&#10;AND a.address2 = :address2&#10;AND a.postalCode = :postalCode&#10;AND a.city = :city&#10;AND a.country = :country&#10;ORDER BY a.persistenceId ASC" returnType="com.company.model.Address">
+                    <description>dbdbd</description>
+                    <queryParameters>
+                        <queryParameter name="address" className="java.lang.String"/>
+                        <queryParameter name="address2" className="java.lang.String"/>
+                        <queryParameter name="postalCode" className="java.lang.String"/>
+                        <queryParameter name="city" className="java.lang.String"/>
+                        <queryParameter name="country" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Customer">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="firstName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="lastName" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.Address" fetchType="EAGER" name="address" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="licence" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="phone" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="dob" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="gender" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="paymentMethod" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="paymentsolvency" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="insurance" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.Vehicle" fetchType="EAGER" name="vehicles" nullable="true" collection="true"/>
+                <field type="TEXT" length="255" name="status" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="caseId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="userId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="globalStatus" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="digisignStatus" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints>
+                <uniqueConstraint name="uniqueConstraint">
+                    <fieldNames>
+                        <fieldName>name</fieldName>
+                    </fieldNames>
+                </uniqueConstraint>
+            </uniqueConstraints>
+            <queries>
+                <query name="query" content="SELECT c &#10;FROM Customer c ORDER BY c.persistenceId DESC" returnType="com.company.model.Customer">
+                    <queryParameters/>
+                </query>
+                <query name="countForQuery" content="SELECT count(c) &#10;FROM Customer c &#10;" returnType="com.company.model.Customer">
+                    <queryParameters/>
+                </query>
+                <query name="previousCustomers" content="SELECT c &#10;FROM Customer c &#10;WHERE c.persistenceId != :persistenceId&#10;ORDER BY c.name ASC" returnType="java.util.List">
+                    <queryParameters>
+                        <queryParameter name="persistenceId" className="java.lang.Long"/>
+                    </queryParameters>
+                </query>
+                <query name="registredCustomers" content="SELECT c &#10;FROM Customer c &#10;WHERE  c.userId &gt; 0&#10;ORDER BY c.persistenceId ASC" returnType="java.util.List">
+                    <queryParameters/>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Vehicle">
+            <fields>
+                <field type="STRING" length="255" name="vin" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="licencePlate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="brand" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="model" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="type" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="color" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="deliveryDate" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="inFleetDate" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="outFleetDate" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints>
+                <uniqueConstraint name="uniqueConstraint">
+                    <fieldNames>
+                        <fieldName>vin</fieldName>
+                    </fieldNames>
+                </uniqueConstraint>
+            </uniqueConstraints>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
