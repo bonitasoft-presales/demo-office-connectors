@@ -236,68 +236,10 @@
             <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0Q_DqMEe2srKvmBnuIMA" key="document-converter-impl -- 2.2.1" value="xmlbeans-3.0.1.jar" type="CONNECTOR"/>
           </children>
         </processDependencies>
-        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0Q_TqMEe2srKvmBnuIMA" id="GROOVY_SCRIPT">
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0RAjqMEe2srKvmBnuIMA" key="com/bonitasoft/OnBoardingStatus.groovy" value="com/bonitasoft/OnBoardingStatus.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0RBDqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessVehicle_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcessVehicle_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0RBTqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessaddCountry_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcessaddCountry_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0RBjqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcesscustomerOnBoarding_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcesscustomerOnBoarding_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj0RBzqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessdamageReport_Blue.groovy" value="com/bonitasoft/data/initialization/process/ProcessdamageReport_Blue.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj030DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessdamageType.groovy" value="com/bonitasoft/data/initialization/process/ProcessdamageType.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj030TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ArrayUtil.groovy" value="com/bonitasoft/data/initialization/utils/ArrayUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj030jqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ContractUtil.groovy" value="com/bonitasoft/data/initialization/utils/ContractUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj030zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/DateUtil.groovy" value="com/bonitasoft/data/initialization/utils/DateUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj031DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/DocumentUtil.groovy" value="com/bonitasoft/data/initialization/utils/DocumentUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj031TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/JsonUtil.groovy" value="com/bonitasoft/data/initialization/utils/JsonUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj031jqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/LoggerUtil.groovy" value="com/bonitasoft/data/initialization/utils/LoggerUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj031zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ProcessUtil.groovy" value="com/bonitasoft/data/initialization/utils/ProcessUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj032DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/UserUtil.groovy" value="com/bonitasoft/data/initialization/utils/UserUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj032TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ZipUtil.groovy" value="com/bonitasoft/data/initialization/utils/ZipUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj032jqMEe2srKvmBnuIMA" key="com/bonitasoft/mail/MessageUtils.groovy" value="com/bonitasoft/mail/MessageUtils.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj033DqMEe2srKvmBnuIMA" key="com/bonitasoft/utils/TezosUtils.groovy" value="com/bonitasoft/utils/TezosUtils.groovy" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqYFq8Ee2Ffswa82Ey2Q" key="CreateUser.groovy" value="CreateUser.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqYVq8Ee2Ffswa82Ey2Q" key="CustomerSupportMapper.groovy" value="CustomerSupportMapper.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqYlq8Ee2Ffswa82Ey2Q" key="CustomerSupportUtil.groovy" value="CustomerSupportUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqY1q8Ee2Ffswa82Ey2Q" key="CustomerSupportVersion.groovy" value="CustomerSupportVersion.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqZFq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/TicketingScenarioExecutor.groovy" value="com/bonitasoft/data/initialization/TicketingScenarioExecutor.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqZVq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/ProcesscreateReporter.groovy" value="com/bonitasoft/data/initialization/process/ProcesscreateReporter.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqZlq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketManagementProcess.groovy" value="com/bonitasoft/data/initialization/process/TicketManagementProcess.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqZ1q8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaMail.groovy" value="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaMail.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqaFq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaWeb.groovy" value="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaWeb.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqaVq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/presales/showroom/ticketing/ReporterUser.groovy" value="com/bonitasoft/presales/showroom/ticketing/ReporterUser.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_EzE_UFuWEe2ivoRm8nkbvg" key="com/bonitasoft/data/initialization/VehicleAssistanceScenario.groovy" value="com/bonitasoft/data/initialization/VehicleAssistanceScenario.groovy" exported="false" type="GROOVY_SCRIPT"/>
-        </processDependencies>
+        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0Q_TqMEe2srKvmBnuIMA" id="GROOVY_SCRIPT"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0Q_jqMEe2srKvmBnuIMA" id="ACTOR_FILTER"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0Q_zqMEe2srKvmBnuIMA" id="OTHER"/>
-        <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0RADqMEe2srKvmBnuIMA" id="GROOVY_SCRIPT">
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj033TqMEe2srKvmBnuIMA" key="com/bonitasoft/OnBoardingStatus.groovy" value="com/bonitasoft/OnBoardingStatus.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj033zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessVehicle_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcessVehicle_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj034DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessaddCountry_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcessaddCountry_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj034TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcesscustomerOnBoarding_v1_0.groovy" value="com/bonitasoft/data/initialization/process/ProcesscustomerOnBoarding_v1_0.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj034jqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessdamageReport_Blue.groovy" value="com/bonitasoft/data/initialization/process/ProcessdamageReport_Blue.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj034zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/process/ProcessdamageType.groovy" value="com/bonitasoft/data/initialization/process/ProcessdamageType.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj035DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ArrayUtil.groovy" value="com/bonitasoft/data/initialization/utils/ArrayUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj035TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ContractUtil.groovy" value="com/bonitasoft/data/initialization/utils/ContractUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj035jqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/DateUtil.groovy" value="com/bonitasoft/data/initialization/utils/DateUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj035zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/DocumentUtil.groovy" value="com/bonitasoft/data/initialization/utils/DocumentUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj036DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/JsonUtil.groovy" value="com/bonitasoft/data/initialization/utils/JsonUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj036TqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/LoggerUtil.groovy" value="com/bonitasoft/data/initialization/utils/LoggerUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj036jqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ProcessUtil.groovy" value="com/bonitasoft/data/initialization/utils/ProcessUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj036zqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/UserUtil.groovy" value="com/bonitasoft/data/initialization/utils/UserUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj037DqMEe2srKvmBnuIMA" key="com/bonitasoft/data/initialization/utils/ZipUtil.groovy" value="com/bonitasoft/data/initialization/utils/ZipUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj037TqMEe2srKvmBnuIMA" key="com/bonitasoft/mail/MessageUtils.groovy" value="com/bonitasoft/mail/MessageUtils.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_Cj037zqMEe2srKvmBnuIMA" key="com/bonitasoft/utils/TezosUtils.groovy" value="com/bonitasoft/utils/TezosUtils.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqalq8Ee2Ffswa82Ey2Q" key="CreateUser.groovy" value="CreateUser.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqa1q8Ee2Ffswa82Ey2Q" key="CustomerSupportMapper.groovy" value="CustomerSupportMapper.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqbFq8Ee2Ffswa82Ey2Q" key="CustomerSupportUtil.groovy" value="CustomerSupportUtil.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqbVq8Ee2Ffswa82Ey2Q" key="CustomerSupportVersion.groovy" value="CustomerSupportVersion.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqblq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/TicketingScenarioExecutor.groovy" value="com/bonitasoft/data/initialization/TicketingScenarioExecutor.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqb1q8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/ProcesscreateReporter.groovy" value="com/bonitasoft/data/initialization/process/ProcesscreateReporter.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqcFq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketManagementProcess.groovy" value="com/bonitasoft/data/initialization/process/TicketManagementProcess.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqcVq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaMail.groovy" value="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaMail.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqclq8Ee2Ffswa82Ey2Q" key="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaWeb.groovy" value="com/bonitasoft/data/initialization/process/TicketSubmissionProcessViaWeb.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_rsPqc1q8Ee2Ffswa82Ey2Q" key="com/bonitasoft/presales/showroom/ticketing/ReporterUser.groovy" value="com/bonitasoft/presales/showroom/ticketing/ReporterUser.groovy" exported="false" type="GROOVY_SCRIPT"/>
-          <fragments xmi:type="configuration:Fragment" xmi:id="_EzE_UVuWEe2ivoRm8nkbvg" key="com/bonitasoft/data/initialization/VehicleAssistanceScenario.groovy" value="com/bonitasoft/data/initialization/VehicleAssistanceScenario.groovy" exported="false" type="GROOVY_SCRIPT"/>
-        </applicationDependencies>
+        <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0RADqMEe2srKvmBnuIMA" id="GROOVY_SCRIPT"/>
         <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_Cj0RATqMEe2srKvmBnuIMA" id="OTHER"/>
       </configurations>
       <contract xmi:type="process:Contract" xmi:id="_Car_ajqLEe2srKvmBnuIMA"/>
@@ -335,6 +277,135 @@
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_Car_YzqLEe2srKvmBnuIMA">
         <name xmi:type="expression:Expression" xmi:id="_Car_ZDqLEe2srKvmBnuIMA" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_Car_ZTqLEe2srKvmBnuIMA" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+    </elements>
+    <elements xmi:type="process:Pool" xmi:id="_r0fMsCrLEe6L0Yex-holoQ" name="Pool1">
+      <elements xmi:type="process:StartEvent" xmi:id="_scAfsCrLEe6L0Yex-holoQ" name="Start5" outgoing="_sydQ0CrLEe6L0Yex-holoQ">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_scBGwSrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_scBGwCrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_scBGwirLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:EndEvent" xmi:id="_taUiECrLEe6L0Yex-holoQ" name="End6" incoming="_taXlYCrLEe6L0Yex-holoQ">
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_taVJISrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_taVJICrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_taVJIirLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:Task" xmi:id="_-9bKcCrhEe6L0Yex-holoQ" name="testSqlServer" outgoing="_taXlYCrLEe6L0Yex-holoQ" incoming="_sydQ0CrLEe6L0Yex-holoQ" actor="_BkzcYCriEe6L0Yex-holoQ">
+        <textAnnotationAttachment xmi:type="process:TextAnnotationAttachment" xmi:id="_TEyPYCrkEe6L0Yex-holoQ" source="_TEiXwCrkEe6L0Yex-holoQ"/>
+        <dynamicLabel xmi:type="expression:Expression" xmi:id="_syaNgirLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <dynamicDescription xmi:type="expression:Expression" xmi:id="_syaNgSrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <stepSummary xmi:type="expression:Expression" xmi:id="_syaNgyrLEe6L0Yex-holoQ" name="" content="" returnTypeFixed="true"/>
+        <connectors xmi:type="process:Connector" xmi:id="_bPX_ICrMEe6L0Yex-holoQ" name="mssql connecteur" definitionId="database-mssqlserver" event="ON_ENTER" definitionVersion="1.2.1">
+          <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_bPX_ISrMEe6L0Yex-holoQ" definitionId="database-mssqlserver" version="1.2.1" modelVersion="7.12.0-004">
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_IirMEe6L0Yex-holoQ" key="driver">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_IyrMEe6L0Yex-holoQ" name="com.microsoft.sqlserver.jdbc.SQLServerDriver" content="com.microsoft.sqlserver.jdbc.SQLServerDriver" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_JCrMEe6L0Yex-holoQ" key="url">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_JSrMEe6L0Yex-holoQ" name="jdbc:sqlserver://;serverName=localhost;encrypt=false;databaseName=master" content="jdbc:sqlserver://;serverName=localhost;encrypt=false;databaseName=master" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_JirMEe6L0Yex-holoQ" key="script">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_JyrMEe6L0Yex-holoQ" name="&lt;pattern-expression>" content="exec  [dbo].[GetNextDossierNumber]" type="TYPE_PATTERN" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_KCrMEe6L0Yex-holoQ" key="username">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_KSrMEe6L0Yex-holoQ" name="sa" content="sa" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_KirMEe6L0Yex-holoQ" key="password">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_KyrMEe6L0Yex-holoQ" name="xHq?Qz0goaX{d" content="xHq?Qz0goaX{d" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_LCrMEe6L0Yex-holoQ" key="separator">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_LSrMEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_LirMEe6L0Yex-holoQ" key="outputType">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_LyrMEe6L0Yex-holoQ" name="outputType" returnTypeFixed="true"/>
+            </parameters>
+            <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_bPX_MCrMEe6L0Yex-holoQ" key="wizardMode">
+              <expression xmi:type="expression:Expression" xmi:id="_bPX_MSrMEe6L0Yex-holoQ" name="true" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+            </parameters>
+          </configuration>
+          <outputs xmi:type="expression:Operation" xmi:id="_bPX_MirMEe6L0Yex-holoQ">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_bPX_MyrMEe6L0Yex-holoQ" name="sequence" content="sequence" type="TYPE_VARIABLE" returnType="java.lang.Long">
+              <referencedElements xmi:type="process:Data" xmi:id="_zRkAQCrhEe6L0Yex-holoQ" name="sequence" dataType="_Y42SnxFJEey7FJmpUiv63A"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_bPX_NCrMEe6L0Yex-holoQ" name="newScript()" content="def ret = -5&#xA;&#xA;&#xA;if(!resultset.next())&#xA;{&#xA;&#x9;System.out.println(&quot;No Data Found&quot;);&#xA;}&#xA;while(resultset.next())&#xA;{&#xA;&#x9;int row = resultset.getRow()&#xA;&#x9;ret = resultset.getInt(0)&#xA;}&#xA;ret" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long">
+              <referencedElements xmi:type="definition:Output" xmi:id="_8m67MCrjEe6L0Yex-holoQ" name="resultset" type="java.sql.ResultSet"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_bPX_NirMEe6L0Yex-holoQ" type="ASSIGNMENT"/>
+          </outputs>
+        </connectors>
+        <loopCondition xmi:type="expression:Expression" xmi:id="_syaNhCrLEe6L0Yex-holoQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <loopMaximum xmi:type="expression:Expression" xmi:id="_syaNhSrLEe6L0Yex-holoQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <cardinalityExpression xmi:type="expression:Expression" xmi:id="_syaNhirLEe6L0Yex-holoQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+        <iteratorExpression xmi:type="expression:Expression" xmi:id="_syaNiCrLEe6L0Yex-holoQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+        <completionCondition xmi:type="expression:Expression" xmi:id="_syaNhyrLEe6L0Yex-holoQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <formMapping xmi:type="process:FormMapping" xmi:id="_-9bxiSrhEe6L0Yex-holoQ">
+          <targetForm xmi:type="expression:Expression" xmi:id="_CNUjACrkEe6L0Yex-holoQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        </formMapping>
+        <contract xmi:type="process:Contract" xmi:id="_-9bxiCrhEe6L0Yex-holoQ"/>
+        <expectedDuration xmi:type="expression:Expression" xmi:id="_-9bxiyrhEe6L0Yex-holoQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
+      </elements>
+      <elements xmi:type="process:TextAnnotation" xmi:id="_TEiXwCrkEe6L0Yex-holoQ" text="TODO : ajouter un parameters"/>
+      <data xmi:type="process:Data" xmi:id="_X6ceICrhEe6L0Yex-holoQ" name="sequence" dataType="_Y42SnxFJEey7FJmpUiv63A">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_X6ceISrhEe6L0Yex-holoQ" content="" returnType="java.lang.Long"/>
+      </data>
+      <formMapping xmi:type="process:FormMapping" xmi:id="_r2_HECrLEe6L0Yex-holoQ">
+        <targetForm xmi:type="expression:Expression" xmi:id="_CNUjASrkEe6L0Yex-holoQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </formMapping>
+      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_r2_HEirLEe6L0Yex-holoQ">
+        <targetForm xmi:type="expression:Expression" xmi:id="_r2_HEyrLEe6L0Yex-holoQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      </overviewFormMapping>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_sydQ0CrLEe6L0Yex-holoQ" target="_-9bKcCrhEe6L0Yex-holoQ" source="_scAfsCrLEe6L0Yex-holoQ">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_sydQ0SrLEe6L0Yex-holoQ"/>
+        <condition xmi:type="expression:Expression" xmi:id="_sydQ0irLEe6L0Yex-holoQ" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <connections xmi:type="process:SequenceFlow" xmi:id="_taXlYCrLEe6L0Yex-holoQ" target="_taUiECrLEe6L0Yex-holoQ" source="_-9bKcCrhEe6L0Yex-holoQ">
+        <decisionTable xmi:type="decision:DecisionTable" xmi:id="_taYMcCrLEe6L0Yex-holoQ"/>
+        <condition xmi:type="expression:Expression" xmi:id="_taYMcSrLEe6L0Yex-holoQ" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+      </connections>
+      <actors xmi:type="process:Actor" xmi:id="_BkzcYCriEe6L0Yex-holoQ" name="Actor1" initiator="true"/>
+      <configurations xmi:type="configuration:Configuration" xmi:id="_blZScCrMEe6L0Yex-holoQ" name="Qualification" version="7.12.0-004" username="walter.bates">
+        <actorMappings xmi:type="actormapping:ActorMappingsType" xmi:id="_E-Az4CriEe6L0Yex-holoQ">
+          <actorMapping xmi:type="actormapping:ActorMapping" xmi:id="_E-Az4SriEe6L0Yex-holoQ" name="Actor1">
+            <groups xmi:type="actormapping:Groups" xmi:id="_E-Az4iriEe6L0Yex-holoQ"/>
+            <memberships xmi:type="actormapping:Membership" xmi:id="_E-Az4yriEe6L0Yex-holoQ"/>
+            <roles xmi:type="actormapping:Roles" xmi:id="_E-Az5CriEe6L0Yex-holoQ">
+              <role>member</role>
+            </roles>
+            <users xmi:type="actormapping:Users" xmi:id="_E-Az5SriEe6L0Yex-holoQ"/>
+          </actorMapping>
+        </actorMappings>
+        <definitionMappings xmi:type="configuration:DefinitionMapping" xmi:id="_blZScSrMEe6L0Yex-holoQ" type="CONNECTOR" definitionId="database-mssqlserver" definitionVersion="1.2.1" implementationId="database-mssqlserver-impl" implementationVersion="2.0.3"/>
+        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_blZScirMEe6L0Yex-holoQ" id="CONNECTOR">
+          <children xmi:type="configuration:FragmentContainer" xmi:id="_blZScyrMEe6L0Yex-holoQ" id="database-mssqlserver-impl-2.0.3">
+            <fragments xmi:type="configuration:Fragment" xmi:id="_blZSdCrMEe6L0Yex-holoQ" key="database-mssqlserver-impl -- 2.0.3" value="bonita-connector-database-2.0.3.jar" type="CONNECTOR"/>
+          </children>
+        </processDependencies>
+        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_blZSdSrMEe6L0Yex-holoQ" id="GROOVY_SCRIPT"/>
+        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_blZSdirMEe6L0Yex-holoQ" id="ACTOR_FILTER"/>
+        <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_blZSdyrMEe6L0Yex-holoQ" id="OTHER">
+          <fragments xmi:type="configuration:Fragment" xmi:id="_blZSeSrMEe6L0Yex-holoQ" key="mssql-jdbc-11.2.1.jre11.jar" value="mssql-jdbc-11.2.1.jre11.jar" type="JAR"/>
+        </processDependencies>
+        <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_blZSeCrMEe6L0Yex-holoQ" id="GROOVY_SCRIPT"/>
+      </configurations>
+      <contract xmi:type="process:Contract" xmi:id="_r2_HFCrLEe6L0Yex-holoQ"/>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_r2-gACrLEe6L0Yex-holoQ">
+        <name xmi:type="expression:Expression" xmi:id="_r2-gASrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_r2-gAirLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_r2-gAyrLEe6L0Yex-holoQ">
+        <name xmi:type="expression:Expression" xmi:id="_r2-gBCrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_r2-gBSrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_r2-gBirLEe6L0Yex-holoQ">
+        <name xmi:type="expression:Expression" xmi:id="_r2-gByrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_r2-gCCrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_r2-gCSrLEe6L0Yex-holoQ">
+        <name xmi:type="expression:Expression" xmi:id="_r2-gCirLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_r2-gCyrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+      </searchIndexes>
+      <searchIndexes xmi:type="process:SearchIndex" xmi:id="_r2-gDCrLEe6L0Yex-holoQ">
+        <name xmi:type="expression:Expression" xmi:id="_r2-gDSrLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
+        <value xmi:type="expression:Expression" xmi:id="_r2-gDirLEe6L0Yex-holoQ" content="" returnTypeFixed="true"/>
       </searchIndexes>
     </elements>
     <datatypes xmi:type="process:BooleanType" xmi:id="_Y42SnBFJEey7FJmpUiv63A" name="Boolean"/>
@@ -382,6 +453,39 @@
       <styles xmi:type="notation:FillStyle" xmi:id="_CavpwjqLEe2srKvmBnuIMA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CavCtDqLEe2srKvmBnuIMA" width="1476" height="294"/>
     </children>
+    <children xmi:type="notation:Node" xmi:id="_r3AVMCrLEe6L0Yex-holoQ" type="2007" element="_r0fMsCrLEe6L0Yex-holoQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_r3A8QyrLEe6L0Yex-holoQ" type="5008"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_r3A8RCrLEe6L0Yex-holoQ" type="7001">
+        <children xmi:type="notation:Shape" xmi:id="_scBt0CrLEe6L0Yex-holoQ" type="3002" element="_scAfsCrLEe6L0Yex-holoQ" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_scBt0irLEe6L0Yex-holoQ" type="5024">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_scBt0yrLEe6L0Yex-holoQ" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_scBt0SrLEe6L0Yex-holoQ" x="147" y="92"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_taVwMCrLEe6L0Yex-holoQ" type="3003" element="_taUiECrLEe6L0Yex-holoQ" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_taVwMirLEe6L0Yex-holoQ" type="5025">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_taVwMyrLEe6L0Yex-holoQ" y="5"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_taVwMSrLEe6L0Yex-holoQ" x="476" y="84"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-9c_oCrhEe6L0Yex-holoQ" type="3005" element="_-9bKcCrhEe6L0Yex-holoQ" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
+          <children xmi:type="notation:DecorationNode" xmi:id="_-9c_oirhEe6L0Yex-holoQ" type="5005"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-9c_oSrhEe6L0Yex-holoQ" x="244" y="76" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TEk0ACrkEe6L0Yex-holoQ" type="3015" element="_TEiXwCrkEe6L0Yex-holoQ">
+          <children xmi:type="notation:DecorationNode" xmi:id="_TEk0BSrkEe6L0Yex-holoQ" type="5010"/>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_TEk0ASrkEe6L0Yex-holoQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_TEk0AirkEe6L0Yex-holoQ" fontName=".AppleSystemUIFont"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_TEk0AyrkEe6L0Yex-holoQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEk0BCrkEe6L0Yex-holoQ" x="389" y="13"/>
+        </children>
+      </children>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_r3AVMSrLEe6L0Yex-holoQ"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_r3A8QCrLEe6L0Yex-holoQ" fontName=".AppleSystemUIFont"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_r3A8QSrLEe6L0Yex-holoQ"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_r3A8RSrLEe6L0Yex-holoQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r3A8QirLEe6L0Yex-holoQ" width="1080" height="250"/>
+    </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Y42SvRFJEey7FJmpUiv63A"/>
     <edges xmi:type="notation:Connector" xmi:id="_qXSbUjqLEe2srKvmBnuIMA" type="4001" element="_qXR0QDqLEe2srKvmBnuIMA" source="_cNfoEAj9Ee6yAYypSeHNYg" target="_CbOx8DqLEe2srKvmBnuIMA" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_qXSbVTqLEe2srKvmBnuIMA" type="6001">
@@ -412,6 +516,24 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_cNirYwj9Ee6yAYypSeHNYg" fontName=".AppleSystemUIFont"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cNirZAj9Ee6yAYypSeHNYg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_syd34CrLEe6L0Yex-holoQ" type="4001" element="_sydQ0CrLEe6L0Yex-holoQ" source="_scBt0CrLEe6L0Yex-holoQ" target="_-9c_oCrhEe6L0Yex-holoQ" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_syd34yrLEe6L0Yex-holoQ" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_syd35CrLEe6L0Yex-holoQ" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_syd34SrLEe6L0Yex-holoQ" fontName=".AppleSystemUIFont"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_syd34irLEe6L0Yex-holoQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_taYMcirLEe6L0Yex-holoQ" type="4001" element="_taXlYCrLEe6L0Yex-holoQ" source="_-9c_oCrhEe6L0Yex-holoQ" target="_taVwMCrLEe6L0Yex-holoQ" roundedBendpointsRadius="10" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_taYMdSrLEe6L0Yex-holoQ" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_taYMdirLEe6L0Yex-holoQ" y="-10"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_taYMcyrLEe6L0Yex-holoQ" fontName=".AppleSystemUIFont"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_taYMdCrLEe6L0Yex-holoQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_TE0EkCrkEe6L0Yex-holoQ" type="4003" element="_TEyPYCrkEe6L0Yex-holoQ" source="_TEk0ACrkEe6L0Yex-holoQ" target="_-9c_oCrhEe6L0Yex-holoQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_TE0EkSrkEe6L0Yex-holoQ" fontName=".AppleSystemUIFont"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TE0EkirkEe6L0Yex-holoQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
